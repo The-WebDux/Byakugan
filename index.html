@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <div class="w3-center">
+  <h4>Cyber Security Helpers</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">შეამოწმე პაროლი გაჟონილ ბაზებში</h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">web-site.com</button>
+    </div>
+  </div>
+</header>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Facebook</h3><br>
+  <img src="static/image/facebook.png">
+  <p>2022 წლის 29 დეკემბერს ფეისბუქის მომხმარებლების 185M+ მომხმარებლების ბაზა გატეხეს ჰაკერებმა
+  მათ შორის მოხვდა ქართული ანგარიშებიც! ბაზები გავრცელდა ჰაკერულ ფორუმებზე.</p>
+  <p>ჩვენმა ჯგუფმა შექმნა ვებ გვერდი სადაც შეგიძლია შეამოწმო მოხვდა თუ არა შენი პაროლი გატეხილი ანგარიშების სიაში.</p>
+  <button onclick="window.location.href='/check.html';" class="button" style="vertical-align:middle"><span>შეამოწმე </span></button>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Instagram</h3><br>
+  <img src="static/image/instagram.png">
+  <p>2022 წლის 11 აგვისტოს ინსტაგრამის მომხმარებლების 15M+ მომხმარებლების ბაზა გატეხეს ჰაკერებმა
+    მათ შორის მოხვდა ქართული ანგარიშებიც! ბაზები გავრცელდა ჰაკერულ ფორუმებზე.</p>
+    <p>ჩვენმა ჯგუფმა შექმნა ვებ გვერდი სადაც შეგიძლია შეამოწმო მოხვდა თუ არა შენი პაროლი გატეხილი ანგარიშების სიაში.</p>
+  <button onclick="window.location.href='/check.html';" class="button" style="vertical-align:middle"><span>შეამოწმე </span></button>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Google</h3><br>
+  <img src="static/image/google.png">
+  <p>2022 წლის 17 მაისს გუგლის მომხმარებლების 245M+ მომხმარებლების ბაზა გატეხეს ჰაკერებმა
+    მათ შორის მოხვდა ქართული ანგარიშებიც! ბაზები გავრცელდა ჰაკერულ ფორუმებზე.</p>
+    <p>ჩვენმა ჯგუფმა შექმნა ვებ გვერდი სადაც შეგიძლია შეამოწმო მოხვდა თუ არა შენი პაროლი გატეხილი ანგარიშების სიაში.</p>
+  <button onclick="window.location.href='/check.html'" class="button" style="vertical-align:middle"><span>შეამოწმე </span></button>
+</div>
+
+<style>
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #2d49e3;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 1px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+</style>
+
+</body>
+</html>

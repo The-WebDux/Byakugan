@@ -1,0 +1,75 @@
+<html>
+
+<head>
+
+</head>
+
+</body>
+<div id="websiteOverlay">
+  <center>
+    <p>მიმდინარეობს ანალიზი...</p>
+  </center>
+</div>
+<div class="container">
+  <center>
+    <br><br><br>
+    <p>გილოცავ!</p>
+    <p>შენი პაროლი ვერ მოიძებნა ჰაკერების მონაცემთა ბაზაში</p>
+  </center>
+</div>
+
+<style>
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  #websiteOverlay {
+    font-size: 100px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(34, 149, 194);
+    color: white;
+    opacity: 0;
+    -webkit-animation: fadeOut 0s;
+    animation: fadeOut 4s;
+  }
+
+  body {
+    background-color: rgb(94, 233, 94);
+  }
+
+  .container {
+    font-size: 60px;
+  }
+</style>
+</body>
+
+</html>
